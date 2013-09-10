@@ -1,0 +1,4 @@
+# Use index.php as front controller
+
+DirectoryIndex index.php
+FallbackResource /index.php

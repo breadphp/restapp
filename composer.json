@@ -17,7 +17,7 @@
 	],
 	"require" : {
 		"php" : ">=5.4",
-		"best/rest" : "~0.1"
+		"bread/rest" : "~0.1"
 	},
 	"autoload" : {
 		"psr-0" : {

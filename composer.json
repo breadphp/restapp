@@ -1,5 +1,27 @@
 {
+	"name" : "bread/restapp",
+	"description" : "Bread REST application template",
+	"type" : "project",
+	"authors" : [{
+			"name" : "Giovanni Lovato",
+			"email" : "heruan@aldu.net"
+		}
+	],
+	"keywords" : [
+		"bread",
+		"project"
+	],
+	"homepage" : "https://github.com/breadphp/restapp",
+	"license" : [
+		"CC-BY-3.0"
+	],
 	"require" : {
+		"php" : ">=5.4",
 		"best/rest" : "~0.1"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"" : "src"
+		}
 	}
 }
